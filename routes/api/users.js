@@ -18,6 +18,7 @@ router.post("/register", async (req, res) => {
     { _id: user._id, name: user.name, role: user.role },
     config.get("jwtPrivateKey")
   );
+  
   let datatoRetuen = {
     name: user.name,
     email: user.email,

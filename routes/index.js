@@ -17,6 +17,7 @@ router.get("/cart/:id", async function (req, res, next) {
   res.cookie("cart", cart);
 });
 
+
 router.get("/cart/remove/:id", async function (req, res, next) {
   let cart = [];
   if (req.cookies.cart) {

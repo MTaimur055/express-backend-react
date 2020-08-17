@@ -17,3 +17,4 @@ function validateProduct(data) {
 }
 module.exports.Product = Product;
 module.exports.validate = validateProduct;
+
